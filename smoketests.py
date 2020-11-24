@@ -1,7 +1,7 @@
 from unittest import TestLoader, TestSuite
 from pyunitreport import HTMLTestRunner #para generar el reporte
 from assertions import AssertionsTest
-from search_tests_assertions import SearchTests
+from searchtests import SearchTests
 
 
 assertions_test = TestLoader().loadTestsFromTestCase(AssertionsTest)
